@@ -489,9 +489,9 @@ var ResponderEventPlugin = {
       if (trackedTouchCount >= 0) {
         trackedTouchCount -= 1;
       } else {
-        console.error(
-          'Ended a touch event which was not counted in `trackedTouchCount`.'
-        );
+        // console.error(
+        //   'Ended a touch event which was not counted in `trackedTouchCount`.'
+        // );
         return null;
       }
     }
